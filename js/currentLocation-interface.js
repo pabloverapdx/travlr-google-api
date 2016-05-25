@@ -12,6 +12,8 @@ var Location = require ('./../js/businessLogic.js').Location;
     var newLocation = new Location (userLocation, userMiles);
     $('#locationSubmit').click(function() {
       $('#locationResult').text(newLocation.read());
-    })
+    });
   });
+
+
 });
